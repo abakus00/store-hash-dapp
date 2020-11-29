@@ -1,0 +1,13 @@
+> Network name:    'kovan'
+> Network id:      42
+> Block gas limit: 12487794 (0xbe8c72)
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'StoreHash'
+   ---------------------
+   > transaction hash:    0xf30e6e67c44c9cd8596528d16d62c0a53881cfee474c6431aed4c0ddf058810a
+   > Blocks: 1            Seconds: 4
+   > contract address:    0x75A4B9f67AE0a521e2c313965A2FCe53Fe57e0CC

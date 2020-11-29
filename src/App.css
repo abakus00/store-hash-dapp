@@ -1,0 +1,52 @@
+/* PAGE */
+.App {
+  text-align: center;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+}
+
+h1 {
+  background-color: #0099ff;
+  color: white;
+  padding-top: 8px;
+  padding-bottom: 15px;
+}
+
+input, select {
+  border: 1px solid #dddddd;
+  width: 12%;
+  margin-right: 15px;
+
+  background-color: #f8f8f8;
+  resize: none;
+}
+table.center {
+  margin-left:auto;
+  margin-right:auto;
+}
+
+table, td, th {
+   border: 1px solid #dddddd;
+   width: 900px;
+}
+
+
+table, td, th {
+   border: 1px solid #dddddd;
+   width: 900px;
+}
+
+th {
+   background-color: 	#d9d9d9
+}
+
+
+img {
+  width: 130px;
+  height: 130px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
