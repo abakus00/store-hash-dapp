@@ -52,7 +52,6 @@ contract('StoreHash', (accounts) => {
   })
 
 
-
   // It should return details of an image previously stored on the blockchain
   it('should return image details', async () => {
     await StoreHashInstance.sendHash(
