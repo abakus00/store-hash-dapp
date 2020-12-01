@@ -2,23 +2,32 @@
 
 ## Summary
 
-This is a project submission for the *Blockchain Developer Online Bootcamp 2020*.
+This is a project submission for the *Consensys Blockchain Developer Online Bootcamp 2020*.
 
-This Ethereum Decentralised Application (dApp) also known as a smart contract, allows users to select a file for upload to IPFS. The user can then enter descriptive details about the file they wish to store before submitting their request.
+This Ethereum Decentralised Application (dApp), smart contract, addresses the challenge of storing digital assets such as images and files on the Ethereum Public Blockchain. The problem has been that storing any serious amount of data on the Ethereum blockchain is really prohibitive. Calculations estimate the cost of storing 1MB is over $600 at today's prices! 
 
-The smart contract then stores the IPFS hash on the Ethereum blockchain, along with some descriptive details entered by the user.
+That's where IPFS comes in. The digital assets can be stored on IPFS and the cryptographic hashes can be stored on a blockchain to offer an immutable, permanent record  that is timestamped and secure..
+
+This dApp is a simple application that allows a user to select a digital asset, enter some details about the asset and then confirm the asset should be stored. The image is stored on IPFS. The descriptive data input by the user and the IPFS hash are sent to the the Ethereum Blockchain for storage. Once the IPFS hash is sent to the Ethereum blockchain the user can request a transaction receipt and also View the image on IPFS.
 
 By combining IPFS and the Ethereum Blockchain the dApp affords the following benefits:
-1. Storage of large files off-chain. IPFS addresses the problem of storing images and other files known to be inherently large in size. It also allows this data to be stored in large volumes.
-2. A permanent, immutable storage of the IPFS hash generated when the user submits the request to upload the file to IPFS for storage.
-3. A Transaction Receipt which serves as indisputable proof that the image existed and was uploaded are published. The transaction receipt includes the following details:
-    *  Ethereum Account of the signed in user
+1. IPFS, a file sharing system that stores and shares large files efficiently.
+2. Ethereum Blockchain, permanent, immutable storage of the IPFS hash generated when the user submits the file for upload.
+3. A Transaction Receipt which serves as indisputable proof that the image existed and was uploaded and published.
+
+The transaction receipt includes the following details:
+    *  Ethereum account of the signed in user
     *  IPFS hash
     *  Ethereum blockchain transaction hash
     *  Block number
 
 
-## Techical Stack involved
+# User Interface
+
+![dappui](/public/ipfs_simple_storage_dapp_ui.png?raw=true "dappui")
+
+
+## Technical Stack involved
 
   * React - Front end library
   * Solidity — The language used to build smart contracts that runs on Ethereum
@@ -46,7 +55,6 @@ By combining IPFS and the Ethereum Blockchain the dApp affords the following ben
 ## Get Transaction Receipt
   1. Click *Transaction Receipt* for the remaining details on the transactions
   2. The block number and Gas Used for the transaction will be reported.
-
 
 
 # Getting Started
@@ -137,7 +145,7 @@ The following steps will deploy the smart contrcat to TestNet
     MNENOMIC = '<Your MetaMask recovery words>'
     INFURA_API_KEY = '<Your Infura API Key after its registration>'
 ```
-4. Deploy to Rinkeby with truffle migrate --reset --compile-all --network rinkeby
+4. Deploy to a Testnet with truffle migrate --reset --compile-all *--network*
 ```
     $ truffle migrate --reset --compile-all --network rinkeby
 ```
