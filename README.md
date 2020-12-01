@@ -26,7 +26,7 @@ The transaction receipt includes the following details:
 
 ![dappui](public/ipfs_simple_storage_dapp_ui.png?raw=true "dappui")
 
-A [Demo of the smart contract] (https://drive.google.com/file/d/1sctuTr1ksgw2VqQ84Ya5bJaNiQLGIOIC/view?usp=sharing) can be seen here.
+![Demo of the smart contract] (https://drive.google.com/file/d/1sctuTr1ksgw2VqQ84Ya5bJaNiQLGIOIC/view?usp=sharing) can be seen here.
 
 
 
