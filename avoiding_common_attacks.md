@@ -4,7 +4,7 @@
 
 ## Summary
 
-Measures taken to ensure the contract is not susceptible to common attacks. This contract is relatively safe because only handles data uploads. There are no value transfers.
+Measures taken to ensure the contract is not susceptible to common attacks. This contract is relatively safe because there are no value transfers.
 
 Common race condition attacks do not apply here, including:
   - Reentrancy
