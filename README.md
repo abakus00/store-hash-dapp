@@ -22,15 +22,11 @@ The transaction receipt includes the following details:
     *  Block number
 
 
-# User Interface
 
-![dappui](public/ipfs_simple_storage_dapp_ui.png?raw=true "dappui")
+# User Interface and Live Demo
 
-# Live Demo
-![Demo of the smart contract] (https://drive.google.com/file/d/1sctuTr1ksgw2VqQ84Ya5bJaNiQLGIOIC/view?usp=sharing) can be seen here.
+[![User Interface](public/ipfs_simple_storage_dapp_ui.png?raw=true)](https://drive.google.com/file/d/1sctuTr1ksgw2VqQ84Ya5bJaNiQLGIOIC/view?usp=sharing=YOUTUBE_VIDEO_ID_HERE
 
-<a href="https://drive.google.com/file/d/1sctuTr1ksgw2VqQ84Ya5bJaNiQLGIOIC/view?usp=sharing=YOUTUBE_VIDEO_ID_HERE
-" target="Demo"></a>
 
 
 ## Technical Stack involved
