@@ -25,9 +25,10 @@ The transaction receipt includes the following details:
 
 # User Interface and Live Demo
 
+[Click here for demo of the smart contract](https://drive.google.com/file/d/1sctuTr1ksgw2VqQ84Ya5bJaNiQLGIOIC/view?usp=sharing "Demo of smart contract")
+
 ![User Interface](public/ipfs_simple_storage_dapp_ui.png?raw=true)
 
-[Click here for demo of the smart contract](https://drive.google.com/file/d/1sctuTr1ksgw2VqQ84Ya5bJaNiQLGIOIC/view?usp=sharing "Demo of smart contract")
 
 
 ## Technical Stack involved
