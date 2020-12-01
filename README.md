@@ -24,7 +24,8 @@ The transaction receipt includes the following details:
 
 # User Interface
 
-![dappui](![dapp_ui](https://github.com/abakus00/test2/blob/master/public/ipfs_simple_storage_dapp_ui%20.png))
+![dappui](public/ipfs_simple_storage_dapp_ui.png?raw=true "dappui")
+
 
 
 ## Technical Stack involved
