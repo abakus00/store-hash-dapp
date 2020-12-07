@@ -16,10 +16,10 @@ By combining IPFS and the Ethereum Blockchain the dApp affords the following ben
 3. A Transaction Receipt which serves as indisputable proof that the image existed and was uploaded and published.
 
 The transaction receipt includes the following details:
-    *  Ethereum account of the signed in user
-    *  IPFS hash
-    *  Ethereum blockchain transaction hash
-    *  Block number
+    * Ethereum account of the signed in user
+    * IPFS hash
+    * Ethereum blockchain transaction hash
+    * Block number
 
 
 
